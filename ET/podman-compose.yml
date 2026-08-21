@@ -1,0 +1,17 @@
+services:
+  python:
+    image: python:3.14-slim
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./proj-volume/:/app
+    mem_limit: 6g
+    cpus: 4.0
+
+
+
+      
+
+
+
+
